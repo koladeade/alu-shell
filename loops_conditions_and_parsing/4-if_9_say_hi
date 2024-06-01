@@ -11,4 +11,3 @@ while [[ $i -le 10 ]]; do
 fi
 (( i+=1 ))
 done
-
