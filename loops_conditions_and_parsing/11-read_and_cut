@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+#This script displays ths content of the filr etc/passwd using the while loop
+while read -r line; do
+echo "$line" | cut -d':' -f 1,3,6
+done < /etc/passwd
