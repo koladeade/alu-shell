@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+#This script terminates the process in the previous script
+kill "$(ps -x | pgrep -f beyond)"
